@@ -358,7 +358,7 @@ async def root():
             "/movies?page=1",
             "/tvshows?page=1",
             "/genre/{genre}?page=1",
-            "/search?query=Stranger%20Things",
+            "/search?query=සිංහල%20හඬකැවු",
             "/detail?url=",
             "/debug",
         ],
