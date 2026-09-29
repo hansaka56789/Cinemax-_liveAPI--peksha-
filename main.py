@@ -358,7 +358,7 @@ async def root():
             "/movies?page=1",
             "/tvshows?page=1",
             "/genre/{genre}?page=1",
-            "/search?query=සිංහල%20හඬකැවු",
+            "/search?query=harry%20potter",
             "/detail?url=",
             "/debug",
         ],
