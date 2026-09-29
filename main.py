@@ -8,10 +8,10 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 # You can override this with an environment variable if the source domain changes.
-BASE = os.getenv("CINESUBZ_BASE", "cinemaxlk.vercel.app").rstrip("/")
+BASE = os.getenv("CINEMAX_BASE", "cinemaxlk.vercel.app").rstrip("/")
 IMPERSONATE = "chrome124"
 
-app = FastAPI(title="CineSubz Catalog API", version="4.0")
+app = FastAPI(title="Cinemax Catalog API", version="4.0")
 
 app.add_middleware(
     CORSMiddleware,
